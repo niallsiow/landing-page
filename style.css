@@ -44,14 +44,23 @@ body{
 
 .quote{
   background-color: #E5E7EB;
+}
+
+.quote-text{
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
 }
 
+.quote-attribution{
+  font-weight: 800;
+}
+
 .call{
   background-color: #3882F6;
 }
+
+/* Layout */
 
 .header,
 .section,
@@ -62,8 +71,6 @@ body{
   padding-left: 100px;
   padding-right: 100px;
 }
-
-/* Layout */
 
 body{
   display: flex;
@@ -103,6 +110,15 @@ body{
 .information-content{
   display: flex;
   text-align: center;
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-attribution{
+  align-self: flex-end;
 }
 
 .footer{
