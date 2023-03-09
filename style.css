@@ -31,7 +31,12 @@ body{
   width: auto;
 }
 
-.information{
+.info-block img{
+  height: 150px;
+  width: 150px;
+}
+
+.information-header{
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
@@ -88,6 +93,16 @@ body{
 
 .hero{
   gap: 20px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
+
+.information-content{
+  display: flex;
+  text-align: center;
 }
 
 .footer{
