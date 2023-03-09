@@ -21,9 +21,14 @@ body{
   font-size: 24px;
 }
 
-.hero{
+.hero .main{
   font-size: 48px;
   font-weight: 800;
+}
+
+.hero img{
+  height: 200px;
+  width: auto;
 }
 
 .information{
@@ -46,8 +51,11 @@ body{
 .header,
 .section,
 .footer{
-  padding-left: 150px;
-  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* Layout */
@@ -76,6 +84,10 @@ body{
 
 .section{
   flex-grow: 1;
+}
+
+.hero{
+  gap: 20px;
 }
 
 .footer{
