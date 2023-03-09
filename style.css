@@ -43,6 +43,13 @@ body{
   background-color: #3882F6;
 }
 
+.header,
+.section,
+.footer{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 /* Layout */
 
 body{
@@ -55,6 +62,12 @@ body{
   justify-content: space-between;
 }
 
+.links{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+
 .content{
   flex-grow: 1;
   display: flex;
@@ -63,4 +76,11 @@ body{
 
 .section{
   flex-grow: 1;
+}
+
+.footer{
+  flex-basis: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
