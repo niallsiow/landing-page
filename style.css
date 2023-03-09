@@ -2,6 +2,12 @@
 
 *{
   font-family: Roboto, sans-serif;
+  margin: 0px;
+}
+
+html,
+body{
+  height: 100%;
 }
 
 .header,
@@ -11,7 +17,7 @@
   color: #F9FAF8;
 }
 
-.header{
+.logo{
   font-size: 24px;
 }
 
@@ -35,4 +41,26 @@
 
 .call{
   background-color: #3882F6;
+}
+
+/* Layout */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section{
+  flex-grow: 1;
 }
