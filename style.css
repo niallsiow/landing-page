@@ -17,8 +17,13 @@ body{
   color: #F9FAF8;
 }
 
+.header{
+  padding-top: 10px;
+}
+
 .logo{
   font-size: 24px;
+  font-weight: 800;
 }
 
 .hero .main{
@@ -28,7 +33,33 @@ body{
 
 .hero img{
   height: 200px;
-  width: auto;
+  width: 700px;
+}
+
+.hero .secondary{
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero button{
+  font-size: 16px;
+  font-weight: 600;
+  background-color:#3882F6;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+.hero button:hover{
+  background-color: white;
+  color: black;
+}
+
+.hero button:active{
+  transform: translateY(4px);
 }
 
 .info-block img{
