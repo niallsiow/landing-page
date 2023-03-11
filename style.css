@@ -26,8 +26,12 @@ body{
   font-weight: 800;
 }
 
+.hero .col1{
+  width: 600px;
+}
+
 .hero .main{
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
 }
 
@@ -62,9 +66,13 @@ body{
   transform: translateY(4px);
 }
 
+.info-block{
+  width: 120px;
+}
+
 .info-block img{
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 8px;
   border-style: solid;
   border-color: #3882F6;
@@ -81,7 +89,7 @@ body{
 }
 
 .quote-text{
-  font-size: 36px;
+  font-size: 30px;
   font-style: italic;
   color: #1F2937;
 }
@@ -119,7 +127,12 @@ body{
 .links{
   display: flex;
   list-style: none;
-  gap: 5px;
+  gap: 10px;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
 }
 
 .content{
@@ -130,6 +143,8 @@ body{
 
 .section{
   flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .hero{
@@ -144,6 +159,9 @@ body{
 .information-content{
   display: flex;
   text-align: center;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .quote{
@@ -153,6 +171,38 @@ body{
 
 .quote-attribution{
   align-self: flex-end;
+}
+
+.call{
+  margin: 50px 100px;
+  color: white;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+
+.call-header{
+  font-weight: 800;
+}
+
+.call button{
+  font-size: 16px;
+  font-weight: 600;
+  background-color:#3882F6;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+.call button:hover{
+  background-color: white;
+  color: black;
+}
+
+.call button:active{
+  transform: translateY(4px);
 }
 
 .footer{
