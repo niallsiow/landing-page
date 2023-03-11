@@ -37,7 +37,7 @@ body{
 
 .hero img{
   height: 200px;
-  width: 700px;
+  width: 500px;
 }
 
 .hero .secondary{
@@ -110,11 +110,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-body{
+.container{
   display: flex;
   flex-direction: column;
 }
@@ -149,6 +149,12 @@ body{
 
 .hero{
   gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.col1{
+  flex-basis: 400px;
 }
 
 .information{
@@ -167,6 +173,8 @@ body{
 .quote{
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .quote-attribution{
@@ -210,4 +218,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
